@@ -1,0 +1,51 @@
+{
+    "single_product": {
+        "label": "Single Product",
+        "hooks": [
+            { "label": "Before Main Content", "value": "woocommerce_before_main_content" },
+            { "label": "Before Sidebar", "value": "woocommerce_sidebar" },
+            { "label": "Before Single Product", "value": "woocommerce_before_single_product" },
+            { "label": "Before Single Product Summary", "value": "woocommerce_before_single_product_summary" },
+            { "label": "Single Product Summary", "value": "woocommerce_single_product_summary" },
+            { "label": "After Single Product Summary", "value": "woocommerce_after_single_product_summary" },
+            { "label": "After Main Content", "value": "woocommerce_after_main_content" },
+            { "label": "Product Meta Start", "value": "woocommerce_product_meta_start" },
+            { "label": "Product Meta End", "value": "woocommerce_product_meta_end" },
+            { "label": "Product Additional Information", "value": "woocommerce_product_additional_information" },
+            { "label": "After Single Product Tabs", "value": "woocommerce_product_after_tabs" },
+            { "label": "Before Add to Cart Button", "value": "woocommerce_before_add_to_cart_button" },
+            { "label": "After Add to Cart Button", "value": "woocommerce_after_add_to_cart_button" },
+            { "label": "Before Quantity Input Field", "value": "woocommerce_before_quantity_input_field" },
+            { "label": "After Quantity Input Field", "value": "woocommerce_after_quantity_input_field" },
+            { "label": "Before Single Variation", "value": "woocommerce_single_variation" },
+            { "label": "Single Variation Add to Cart Button", "value": "woocommerce_single_variation_add_to_cart_button" },
+            { "label": "Product Share", "value": "woocommerce_share" },
+            { "label": "Review Before Comment Text", "value": "woocommerce_review_before_comment_text" },
+            { "label": "Review After Comment Text", "value": "woocommerce_review_after_comment_text" }
+        ]
+    },
+    "archive": {
+        "label": "Archive/Shop Page",
+        "hooks": [
+            { "label": "Before Main Content", "value": "woocommerce_before_main_content" },
+            { "label": "Before Breadcrumb", "value": "woocommerce_breadcrumb" },
+            { "label": "Archive Description (Taxonomy)", "value": "woocommerce_taxonomy_archive_description" },
+            { "label": "Archive Description (Product)", "value": "woocommerce_product_archive_description" },
+            { "label": "Before Shop Loop", "value": "woocommerce_before_shop_loop" },
+            { "label": "Shop Notices", "value": "woocommerce_output_all_notices" },
+            { "label": "Result Count", "value": "woocommerce_result_count" },
+            { "label": "Catalog Ordering", "value": "woocommerce_catalog_ordering" },
+            { "label": "Before Shop Loop Item", "value": "woocommerce_before_shop_loop_item" },
+            { "label": "Show Product Sale Flash", "value": "woocommerce_show_product_loop_sale_flash" },
+            { "label": "Product Thumbnail", "value": "woocommerce_template_loop_product_thumbnail" },
+            { "label": "Product Title", "value": "woocommerce_template_loop_product_title" },
+            { "label": "After Shop Loop Item Title (Price)", "value": "woocommerce_template_loop_price" },
+            { "label": "After Shop Loop Item Title (Rating)", "value": "woocommerce_template_loop_rating" },
+            { "label": "After Shop Loop Item", "value": "woocommerce_after_shop_loop_item" },
+            { "label": "Product Link Close", "value": "woocommerce_template_loop_product_link_close" },
+            { "label": "Add to Cart Button", "value": "woocommerce_template_loop_add_to_cart" },
+            { "label": "Pagination", "value": "woocommerce_pagination" },
+            { "label": "After Main Content Wrapper End", "value": "woocommerce_output_content_wrapper_end" }
+        ]
+    }
+}

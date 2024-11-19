@@ -1,0 +1,176 @@
+/*
+* Style Works for Editor Only
+*/
+
+.wcan-notice-field-section {
+    display: flex;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.wcan-notice-field-label {
+    display: flex;
+    align-items: center;
+}
+
+.wcan-notice-field-wrap {
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.wcan-notice-field-label,
+.wcan-notice-field-wrap {
+    flex: 1 0 50%;
+}
+
+.wcan-color-components-dropdown {
+    width: 28px;
+    height: 28px;
+}
+
+.wcan-notice-color-palette-button {
+    width: 28px;
+    height: 28px;
+    border: 1px solid #aaa;
+}
+
+.wcan-notice-field-wrap.with-reset {
+    display: flex;
+}
+
+.wcan-notice-reset-button {
+    position: relative;
+    font-size: 0;
+    margin-left: 10px;
+    border: none;
+    box-shadow: none !important;
+    height: 24px;
+    background: transparent;
+    color: var(--wp-components-color-accent, var(--wp-admin-theme-color, #3858e9));
+    white-space: nowrap;
+}
+.wcan-notice-reset-button:before {
+    content: "\f531";
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 16px;
+    font-family: "dashicons";
+}
+
+.wcan-dimension-control {
+    margin-bottom: 20px;
+}
+
+.wcan-panel-row-height-auto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.wcan-control-title {
+    margin: 0;
+}
+
+.wcan-units-choices {
+    display: flex;
+    gap: 5px;
+}
+
+.wcan-units-choices button {
+    height: 20px !important;
+    width: 25px; /* Set fixed width for uniform appearance */
+    text-align: center;
+    padding: 0 6px !important;
+    line-height: 30px;
+    font-size: 10px !important;
+}
+
+.wcan-components-panel__row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.wcan-components-panel__row .wcan-components-base-control {
+    flex: 1;
+    margin: 0 5px;
+}
+
+.wcan-components-panel__row .wcan-components-base-control label {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 12px;
+}
+
+.wcan-dimension-control .wcan-components-flex {
+    justify-content: space-between;
+    align-items: flex-end; /* Align inputs and button to bottom */
+}
+
+.wcan-dimension-control .wcan-components-flex .wcan-components-input-control__input {
+    width: 100%; /* Allow inputs to fill available space */
+    padding: 5px;
+    text-align: center;
+    box-sizing: border-box; /* Ensure padding doesn't overflow */
+}
+
+.wcan-dimension-control .wcan-components-button {
+    height: 35px;
+    width: 35px; /* Fixed size for the unlink button */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end; /* Align button to the bottom */
+}
+
+.wcan-number-dimension-input input.components-text-control__input {
+    padding: 0 2px;
+}
+
+.wcan-number-dimension-input .components-base-control__label {
+    font-weight: 400;
+    font-size: 10px;
+    margin-bottom: 2px;
+}
+
+.wcan-components-button.has-icon .wcan-dashicons {
+    font-size: 16px;
+}
+
+
+.components-flex-item .wcan-dimension-icon-button {
+    background: none;
+    border: none;
+    padding: 0;
+    height: auto; /* Adjust to content */
+    width: auto;  /* Adjust to content */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wcan-dimension-icon-button .dashicons {
+    font-size: 16px; /* Ensure the icon is an appropriate size */
+    margin: 0; /* Remove any margin */
+}
+
+.wcan-dimension-flex-wrapper > div > div:nth-child(5){
+	min-width: 26px;
+}
+.wcan-dimension-flex-wrapper > div > div:nth-child(5) button{
+	min-width: unset;
+	margin-top: 10px;
+}
+
+h3.wcan-heading-text, .wcan-notice-content-text{
+	margin-top: unset;
+	margin-bottom: unset;
+	margin-block-start: unset;
+    margin-block-end: unset;
+}

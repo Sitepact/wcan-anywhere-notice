@@ -1,0 +1,123 @@
+{
+    "cart": {
+        "label": "Cart Page (cart)",
+        "hooks": [
+            { "label": "Before Cart", "value": "woocommerce_before_cart" },
+            { "label": "Cart Actions", "value": "wooommerce_cart_actions" },
+            { "label": "Before Cart Table", "value": "woocommerce_before_cart_table" },
+            { "label": "Before Cart Contents", "value": "woocommerce_before_cart_contents" },
+            { "label": "Cart Contents", "value": "woocommerce_cart_contents" },
+            { "label": "Cart Coupon", "value": "woocommerce_cart_coupon" },
+            { "label": "After Cart Contents", "value": "woocommerce_after_cart_contents" },
+            { "label": "After Cart Table", "value": "woocommerce_after_cart_table" },
+            { "label": "Cart Collaterals", "value": "woocommerce_cart_collaterals" },
+            { "label": "Before Cart Totals", "value": "woocommerce_before_cart_totals" },
+            { "label": "Cart Totals Before Shipping", "value": "woocommerce_cart_totals_before_shipping" },
+            { "label": "Before Shipping Calculator", "value": "woocommerce_before_shipping_calculator" },
+            { "label": "After Shipping Calculator", "value": "woocommerce_after_shipping_calculator" },
+            { "label": "Cart Totals After Shipping", "value": "woocommerce_cart_totals_after_shipping" },
+            { "label": "After Shipping Rate", "value": "woocommerce_after_shipping_rate" },
+            { "label": "Cart Totals Before Order Total", "value": "woocommerce_cart_totals_before_order_total" },
+            { "label": "Cart Totals After Order Total", "value": "woocommerce_cart_totals_after_order_total" },
+            { "label": "After Cart Totals", "value": "woocommerce_after_cart_totals" },
+            { "label": "Cart Is Empty", "value": "woocommerce_cart_is_empty" },
+            { "label": "Proceed to Checkout", "value": "woocommerce_proceed_to_checkout" },
+            { "label": "After Cart", "value": "woocommerce_after_cart" }
+        ]
+    },
+    "checkout": {
+        "label": "Checkout Page (checkout)",
+        "hooks": [
+            { "label": "Before Checkout Form", "value": "woocommerce_before_checkout_form" },
+            { "label": "Checkout Before Customer Details", "value": "woocommerce_checkout_before_customer_details" },
+            { "label": "Checkout Billing", "value": "woocommerce_checkout_billing" },
+            { "label": "Before Checkout Billing Form", "value": "woocommerce_before_checkout_billing_form" },
+            { "label": "After Checkout Billing Form", "value": "woocommerce_after_checkout_billing_form" },
+            { "label": "Before Checkout Registration Form", "value": "woocommerce_before_checkout_registration_form" },
+            { "label": "After Checkout Registration Form", "value": "woocommerce_after_checkout_registration_form" },
+            { "label": "Checkout Before Terms and Conditions", "value": "woocommerce_checkout_before_terms_and_conditions" },
+            { "label": "Checkout After Terms and Conditions", "value": "woocommerce_checkout_after_terms_and_conditions" },
+            { "label": "Checkout Shipping", "value": "woocommerce_checkout_shipping" },
+            { "label": "Before Checkout Shipping Form", "value": "woocommerce_before_checkout_shipping_form" },
+            { "label": "After Checkout Shipping Form", "value": "woocommerce_after_checkout_shipping_form" },
+            { "label": "Before Order Notes", "value": "woocommerce_before_order_notes" },
+            { "label": "After Order Notes", "value": "woocommerce_after_order_notes" },
+            { "label": "Checkout After Customer Details", "value": "woocommerce_checkout_after_customer_details" },
+            { "label": "Checkout Before Order Review Heading", "value": "woocommerce_checkout_before_order_review_heading" },
+            { "label": "Checkout Order Review", "value": "woocommerce_checkout_order_review" },
+            { "label": "Checkout Before Order Review", "value": "woocommerce_checkout_before_order_review" },
+            { "label": "Review Order Before Cart Contents", "value": "woocommerce_review_order_before_cart_contents" },
+            { "label": "Review Order After Cart Contents", "value": "woocommerce_review_order_after_cart_contents" },
+            { "label": "Review Order Before Shipping", "value": "woocommerce_review_order_before_shipping" },
+            { "label": "Review Order After Shipping", "value": "woocommerce_review_order_after_shipping" },
+            { "label": "Review Order Before Order Total", "value": "woocommerce_review_order_before_order_total" },
+            { "label": "Review Order After Order Total", "value": "woocommerce_review_order_after_order_total" },
+            { "label": "Review Order Before Payment", "value": "woocommerce_review_order_before_payment" },
+            { "label": "Review Order Before Submit", "value": "woocommerce_review_order_before_submit" },
+            { "label": "Review Order After Submit", "value": "woocommerce_review_order_after_submit" },
+            { "label": "Review Order After Payment", "value": "woocommerce_review_order_after_payment" },
+            { "label": "Checkout After Order Review", "value": "woocommerce_checkout_after_order_review" },
+            { "label": "After Checkout Form", "value": "woocommerce_after_checkout_form" }
+        ]
+    },
+    "login_register": {
+        "label": "Login/Register",
+        "hooks": [
+            { "label": "Before Forms", "value": "woocommerce_before_customer_login_form" },
+            { "label": "Where Login Form Starts", "value": "woocommerce_login_form_start" },
+            { "label": "Where Register Form Starts", "value": "woocommerce_register_form_start" },
+            { "label": "Before Login Form Button", "value": "woocommerce_login_form" },
+            { "label": "Before Register Form Button", "value": "woocommerce_register_form" },
+            { "label": "Where Login Form Ends", "value": "woocommerce_login_form_end" },
+            { "label": "Where Register Form Ends", "value": "woocommerce_register_form_end" },
+            { "label": "After Forms", "value": "woocommerce_after_customer_login_form" }
+        ]
+    },
+    "account_page": {
+        "label": "Account Page",
+        "hooks": [
+            { "label": "Account Content", "value": "woocommerce_account_content" },
+            { "label": "Account Dashboard", "value": "woocommerce_account_dashboard" },
+            { "label": "After Account Navigation", "value": "woocommerce_after_account_navigation" }
+        ]
+    },
+    "orders_page": {
+        "label": "Account Orders",
+        "hooks": [
+            { "label": "Before Account Orders", "value": "woocommerce_before_account_orders" },
+            { "label": "Before Order Pagination", "value": "woocommerce_before_account_orders_pagination" },
+            { "label": "After Account Orders", "value": "woocommerce_after_account_orders" }
+        ]
+    },
+    "account_downloads": {
+        "label": "Account Downloads",
+        "hooks": [
+            { "label": "Before Account Downloads", "value": "woocommerce_before_account_downloads" },
+            { "label": "Before Available Downloads", "value": "woocommerce_before_available_downloads" },
+            { "label": "After Available Downloads", "value": "woocommerce_after_available_downloads" },
+            { "label": "After Account Downloads", "value": "woocommerce_after_account_downloads" }
+        ]
+    },
+    "account_addresses": {
+        "label": "Account Addresses",
+        "hooks": [
+            { "label": "Before Edit Address Form", "value": "woocommerce_before_edit_account_address_form" },
+            { "label": "After Edit Address Form", "value": "woocommerce_after_edit_account_address_form" }
+        ]
+    },
+    "account_payment_methods": {
+        "label": "Account Payment Methods",
+        "hooks": [
+            { "label": "Before Account Payment Methods", "value": "woocommerce_before_account_payment_methods" },
+            { "label": "After Account Payment Methods", "value": "woocommerce_after_account_payment_methods" }
+        ]
+    },
+    "account_details": {
+        "label": "Account Details",
+        "hooks": [
+            { "label": "Before Account Form", "value": "woocommerce_before_edit_account_form" },
+            { "label": "Edit Account Form Start", "value": "woocommerce_edit_account_form_start" },
+            { "label": "After Account Form", "value": "woocommerce_edit_account_form_end" }
+        ]
+    }
+}

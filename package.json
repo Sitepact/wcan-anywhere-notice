@@ -1,0 +1,40 @@
+{
+	"name": "wcan-anywhere-notice",
+	"version": "1.0.0",
+	"description": "A powerful plugin for placing custom notices anywhere on your WooCommerce Store using flexible display rules and hooks.",
+	"author": "Ryon Whyte",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"woocommerce",
+		"notice",
+		"gutenberg"
+	],
+	"prettier": "@wordpress/prettier-config",
+	"stylelint": {
+		"extends": "@wordpress/stylelint-config/scss"
+	},
+	"scripts": {
+		"prebuild": "node generate-entries.js",
+		"build": "wp-scripts build",
+    	"start": "wp-scripts start",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip"
+	},
+	"devDependencies": {
+		"@wordpress/eslint-plugin": "^21.3.0",
+		"@wordpress/prettier-config": "^4.10.0",
+		"@wordpress/scripts": "^30.3.0",
+		"@wordpress/stylelint-config": "^23.2.0",
+		"eslint-config-prettier": "^9.1.0"
+	},
+	"dependencies": {
+		"@wordpress/block-editor": "^14.5.0",
+		"@wordpress/components": "^28.10.0",
+		"@wordpress/i18n": "^5.10.0",
+		"@wordpress/icons": "^10.10.0",
+		"react": "^18.3.1"
+	}
+}

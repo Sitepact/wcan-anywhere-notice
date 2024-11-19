@@ -1,0 +1,93 @@
+{
+	"apiVersion": 2,
+	"name": "wcan-anywhere-notice/simple-notice",
+	"version": "0.1.0",
+	"title": "WCAN: Simple Notice",
+	"category": "wcan-anywhere-notice-blocks",
+	"icon": "megaphone",
+	"description": "Add customizable notifications using blocks anywhere in WooCommerce",
+	"supports": {
+		"html": false,
+		"anchor": true
+	},
+	"attributes": {
+		"heading": {
+			"type": "string",
+			"default": "Notification Heading...",
+			"source": "html",
+            "selector": "h3"
+		},
+		"headingFontSize":{
+			"type": "string",
+			"default": "14px"
+		},
+		"hideHeading":{
+			"type":"boolean",
+			"default": false
+		},
+		"content": {
+			"type": "string",
+			"default": "This is where you will add your notification content",
+			"source": "html",
+            "selector": "p"
+		},
+		"contentAlignment":{
+			"type": "string",
+			"default": "left"
+		},
+		"contentFontSize":{
+			"type": "string",
+			"default": "12px"
+		},
+		"hideContent":{
+			"type":"boolean",
+			"default": false
+		},
+		"headingColor": {
+			"type": "string",
+			"default": "#000000"
+		},
+		"contentColor": {
+			"type": "string",
+			"default": "#000000"
+		},
+		"backgroundColor": {
+			"type": "string",
+			"default": "#00ff00"
+		},
+		"borderColor": {
+			"type": "string"
+		},
+		"containerPadding": {
+			"type": "object",
+			"default": {
+				"top": 10,
+				"left": 10,
+				"right": 10,
+				"bottom": 10
+			}
+		},
+		"borderSize": {
+			"type": "object",
+			"default": {
+				"top": 0,
+				"left": 0,
+				"right": 0,
+				"bottom": 0
+			}
+		},
+		"borderRadius": {
+			"type": "object",
+			"default": {
+				"top": 0,
+				"left": 0,
+				"right": 0,
+				"bottom": 0
+			}
+		}
+	},
+	"textdomain": "wcan-anywhere-notice",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
