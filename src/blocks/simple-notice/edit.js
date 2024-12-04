@@ -47,19 +47,20 @@ const Edit = ({ attributes, setAttributes }) => {
             </BlockControls>
 			<InspectorControls>
 				<TabPanel
-					className="my-tab-panel"
-					activeClass="active-tab"
+					className="wcan-block-tab-panel"
+					activeClass="wcan-active-tab"
 					onSelect={onSelect}
 					tabs={[
 						{
 							name: 'general',
 							title: 'General',
-							className: 'wcan-inspector-tab-general',
+							className: 'wcan-inspector-tab-general'
+							
 						},
 						{
 							name: 'styles',
 							title: 'Styles',
-							className: 'wcan-inspector-tab-styles',
+							className: 'wcan-inspector-tab-styles'
 						},
 					]}
 				>

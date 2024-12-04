@@ -1,7 +1,8 @@
-const { PluginSidebarMoreMenuItem, PluginSidebar} = wp.editor;
-const { PanelBody, SelectControl, Button } = wp.components;
+const { PluginDocumentSettingPanel} = wp.editor;
+const { SelectControl, Button } = wp.components;
 const { useSelect, useDispatch } = wp.data;
 const { useState, useEffect } = wp.element;
+import './editor.scss';
 
 const WCANSidebar = () => {
     const postMeta = useSelect((select) => select('core/editor').getEditedPostAttribute('meta')) || {};
@@ -84,15 +85,11 @@ const WCANSidebar = () => {
 
     return (
         <>
-            <PluginSidebarMoreMenuItem target="wcan-sidebar">
-                WCAN Display Rules
-            </PluginSidebarMoreMenuItem>
-            <PluginSidebar
-                name="wcan-sidebar"
-                title="WC Anywhere Notice Settings"
+            <PluginDocumentSettingPanel
+                name="wcan-display-rules"
+                title="Display Rules"
                 icon="flag"
             >
-                <PanelBody title="Display Rules" initialOpen={true}>
                     {rules.map((rule, index) => (
                         <div key={index}>
                             {index > 0 && (
@@ -150,8 +147,7 @@ const WCANSidebar = () => {
                     <Button isPrimary onClick={addNewRule} style={{ marginTop: '15px' }}>
                         Add Another Rule
                     </Button>
-                </PanelBody>
-            </PluginSidebar>
+            </PluginDocumentSettingPanel>
         </>
     );
 };

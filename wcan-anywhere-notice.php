@@ -1,13 +1,13 @@
 <?php
 /**
- * Plugin Name:       WC Anywhere Notice
+ * Plugin Name:       WC Anywhere Notice for WooCommerce
  * Description:       A plugin to add customizable notifications, media and other content anywhere in WooCommerce using hooks.
  * Requires at least: 6.2
  * Requires PHP:      8.0
  * Version:           1.0.0
  * Author:            Sitepact
  * Author URI:        https://sitepact.com
- * Plugin URI:        https://sitepact.com/wc-anywhere-notice/
+ * Plugin URI:        https://sitepact.com/wcan-anywhere-notice/
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       wcan-anywhere-notice

@@ -8,24 +8,24 @@ class PostTypeActions {
         add_action('init', [$this, 'register_post_type']);
         add_action('init', [$this, 'wcan_init_custom_meta']);
         add_action('admin_menu', [$this, 'add_to_woocommerce_menu']);
-        add_action('rest_after_insert_wc_anywhere_notice', [$this, 'wcan_save_display_rules'], 10, 3);
+        add_action('rest_after_insert_wcan_anywhere_notice', [$this, 'wcan_save_display_rules'], 10, 3);
         add_action('before_delete_post', [$this, 'wcan_delete_display_rules']);
-        //add_action('save_post_wc_anywhere_notice', [$this, 'wcan_save_display_rules'], 10, 3);
+        //add_action('save_post_wcan_anywhere_notice', [$this, 'wcan_save_display_rules'], 10, 3);
     }
 
     // Register custom post type
     public function register_post_type() {
         $labels = [
-            'name'               => __('WC Anywhere Notices', 'wcan-anywhere-notice'),
-            'singular_name'      => __('WC Anywhere Notice', 'wcan-anywhere-notice'),
-            'menu_name'          => __('WC Anywhere Notices', 'wcan-anywhere-notice'),
+            'name'               => __('WCAN Anywhere Notices', 'wcan-anywhere-notice'),
+            'singular_name'      => __('WCAN Anywhere Notice', 'wcan-anywhere-notice'),
+            'menu_name'          => __('WCAN Anywhere Notices', 'wcan-anywhere-notice'),
             'add_new'            => __('Add New Notice', 'wcan-anywhere-notice'),
-            'add_new_item'       => __('Add New WC Anywhere Notice', 'wcan-anywhere-notice'),
-            'edit_item'          => __('Edit WC Anywhere Notice', 'wcan-anywhere-notice'),
-            'new_item'           => __('New WC Anywhere Notice', 'wcan-anywhere-notice'),
-            'view_item'          => __('View WC Anywhere Notice', 'wcan-anywhere-notice'),
-            'all_items'          => __('All WC Anywhere Notices', 'wcan-anywhere-notice'),
-            'search_items'       => __('Search WC Anywhere Notices', 'wcan-anywhere-notice'),
+            'add_new_item'       => __('Add New WCAN Anywhere Notice', 'wcan-anywhere-notice'),
+            'edit_item'          => __('Edit WCAN Anywhere Notice', 'wcan-anywhere-notice'),
+            'new_item'           => __('New WCAN Anywhere Notice', 'wcan-anywhere-notice'),
+            'view_item'          => __('View WCAN Anywhere Notice', 'wcan-anywhere-notice'),
+            'all_items'          => __('All WCAN Anywhere Notices', 'wcan-anywhere-notice'),
+            'search_items'       => __('Search WCAN Anywhere Notices', 'wcan-anywhere-notice'),
             'not_found'          => __('No notices found.', 'wcan-anywhere-notice'),
         ];
 
@@ -42,23 +42,23 @@ class PostTypeActions {
             'exclude_from_search'   => true,
         ];
 
-        register_post_type('wc_anywhere_notice', $args);
+        register_post_type('wcan_anywhere_notice', $args);
     }
 
     // Add to WooCommerce menu
     public function add_to_woocommerce_menu() {
         add_submenu_page(
             'woocommerce',
-            __('WC Anywhere Notices', 'wcan-anywhere-notice'),
-            __('WC Anywhere Notices', 'wcan-anywhere-notice'),
+            __('Anywhere Notices', 'wcan-anywhere-notice'),
+            __('Anywhere Notices', 'wcan-anywhere-notice'),
             'manage_options',
-            'edit.php?post_type=wc_anywhere_notice'
+            'edit.php?post_type=wcan_anywhere_notice'
         );
     }
 
 
     public function wcan_init_custom_meta() {
-        register_post_meta('wc_anywhere_notice', '_wcan_notice_rules', [
+        register_post_meta('wcan_anywhere_notice', '_wcan_notice_rules', [
             'single'       => true,
             'type'         => 'array',
             'show_in_rest' => true,
@@ -142,7 +142,7 @@ class PostTypeActions {
      */
     public function wcan_delete_display_rules($post_id) {
         $post_type = get_post_type($post_id);
-        if ($post_type !== 'wc_anywhere_notice') {
+        if ($post_type !== 'wcan_anywhere_notice') {
             return;
         }
 

@@ -1,4 +1,4 @@
-=== WC Anywhere Notice ===
+=== WC Anywhere Notice for WooCommerce ===
 Contributors: sitepact, ryonwhyte
 Tags: woocommerce, notices, hooks, notification
 Requires at least: 6.2  
@@ -12,15 +12,15 @@ A powerful plugin for placing notices anywhere on your WooCommerce store using f
 
 == Description ==
 
-**WC Anywhere Notice** empowers WooCommerce Store owners to create and manage custom notices that can be displayed anywhere in your store. Using WooCommerce's powerful hook system, this plugin allows you to target specific pages or templates and fine-tune where your notices appear. This is built into the powerful Gutenberg editor that make design options limitless.
+**WC Anywhere Notice for WooCommerce** empowers WooCommerce Store owners to create and manage custom notices that can be displayed anywhere in your store. Using WooCommerce's powerful hook system, this plugin allows you to target specific pages or templates and fine-tune where your notices appear. This is built into the powerful Gutenberg editor that make design options limitless.
 
 == Basic usage: ==
-1. After plugin is installed and activated go to **WooCommerce > WC Anywhere Notices**.
-2. Click Add New WC Anywhere Notice. [Screenshot](https://sitepact.com/wp-content/uploads/2024/11/add-new-notice.png)
-3. You can opt to utilize the default notice block. [Screenshot](https://sitepact.com/wp-content/uploads/2024/11/default-notice-block.png)
-4. General Settings Allows you to hide header or content etc. [Screenshot](https://sitepact.com/wp-content/uploads/2024/11/wcan-general-settings.png)
-5. The style tab allows you to change all the styling on the plugin default block. [Screenshot](https://sitepact.com/wp-content/uploads/2024/11/wcan-style-tab.png)
-6. Finally add the display rule(s) and save. Thats it! Your notice will now be displayed on the frontend
+1. After plugin is installed and activated go to **WooCommerce > Anywhere Notices**.
+2. Click Add New WCAN Anywhere Notice. [Screenshot](https://sitepact.com/wp-content/uploads/2024/12/add-new-notice-v1.png)
+3. You can opt to utilize the default notice block. [Screenshot](https://sitepact.com/wp-content/uploads/2024/12/notice-default-block-v1.png)
+4. General Settings Allows you to hide header or content etc. [Screenshot](https://sitepact.com/wp-content/uploads/2024/12/wcan-general-settings-v1.png)
+5. The style tab allows you to change all the styling on the plugin default block. [Screenshot](https://sitepact.com/wp-content/uploads/2024/12/wcan-style-tab-v1.png)
+6. Finally add the display rule(s) and save. Thats it! Your notice will now be displayed on the frontend [Screenshot](https://sitepact.com/wp-content/uploads/2024/12/display-rules-v1.png)
 
 == Advanced Usage: ==
 1. Instead of using the default plugin block above you can design your own element from scratch in the gutenberg editor. [Screenshot](https://sitepact.com/wp-content/uploads/2024/11/gutenberg-anything.png)
@@ -47,19 +47,19 @@ A powerful plugin for placing notices anywhere on your WooCommerce store using f
 = Manual =
 1. Upload the plugin files to the `/wp-content/plugins` directory, or install the plugin through the WordPress plugins screen directly.
 2. Activate the plugin through the 'Plugins' screen in WordPress.
-3. Navigate to **WooCommerce > WC Anywhere Notices** to start creating your custom notices.
+3. Navigate to **WooCommerce > Anywhere Notices** to start creating your custom notices.
 4. Use the sidebar controls to configure display rules and style each notice.
 
 = Within WordPress =
 1. Go to **Plugins > Add New**.
-2. Search "WC Anywhere Notice".
+2. Search "WC Anywhere Notice for WooCommerce".
 3. Install and Activate
-4. Go to **WooCommerce > WC Anywhere Notices** and create your first notice
+4. Go to **WooCommerce > Anywhere Notices** and create your first notice
 
 == Frequently Asked Questions ==
 
 = How do I create a new notice? =  
-Navigate to **WooCommerce > WC Anywhere Notices** and click 'Add New Notice'. From there, you can define your message and set display rules using the sidebar options.
+Navigate to **WooCommerce > Anywhere Notices** and click 'Add New WCAN Anywhere Notice'. From there, you can define your message and set display rules using the sidebar options.
 
 = What are WooCommerce hooks? =  
 Hooks are points in WooCommerce where you can add or modify functionality. This plugin uses hooks to determine where your notices should appear on the site giving you maximum flexibility
@@ -107,4 +107,16 @@ First stable release. Please report any issues to our support team.
 == Support ==
 
 For support or further inquiries, please visit [Sitepact Support](https://sitecare.sitepact.com). 
+
+== Source Code & Contribution ==
+The source code of this plugin, including non-compressed versions of JavaScript and CSS files, is available publicly on GitHub for transparency and development collaboration:
+
+[GitHub Repository for WCAN Anywhere Notice](https://github.com/Sitepact/wcan-anywhere-notice)
+
+The repository includes all development files and tools used, such as build scripts for generating minified JavaScript and CSS. This plugin uses npm and webpack to compile and minify JavaScript and CSS files. To rebuild these assets, follow the steps below:
+
+1. Clone the GitHub repository.
+2. Run `npm install` to install dependencies.
+3. Run `npm run build` to compile and generate production assets.
+
 

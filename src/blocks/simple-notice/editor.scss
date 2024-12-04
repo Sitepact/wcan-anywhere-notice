@@ -1,11 +1,28 @@
 /*
 * Style Works for Editor Only
 */
-
+.wcan-active-tab{
+    border-bottom: 2px solid var(--wp-components-color-accent, var(--wp-admin-theme-color, #3858e9));
+}
 .wcan-notice-field-section {
     display: flex;
     padding-bottom: 20px;
     align-items: center;
+}
+
+.wcan-inspector-tab-general::before {
+    content: "\f107";
+}
+
+.wcan-inspector-tab-styles::before {
+    content: "\f540";
+}
+.wcan-inspector-tab-general::before, .wcan-inspector-tab-styles::before{
+    font-family: "dashicons";
+    font-size: 16px;
+    margin-right: 3px;
+    line-height: 1;
+    position: static;
 }
 
 .wcan-notice-field-label {

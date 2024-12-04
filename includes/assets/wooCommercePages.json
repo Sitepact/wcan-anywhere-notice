@@ -1,6 +1,6 @@
 {
     "cart": {
-        "label": "Cart Page (cart)",
+        "label": "Cart Page (Classic)",
         "hooks": [
             { "label": "Before Cart", "value": "woocommerce_before_cart" },
             { "label": "Cart Actions", "value": "wooommerce_cart_actions" },
@@ -23,6 +23,36 @@
             { "label": "Cart Is Empty", "value": "woocommerce_cart_is_empty" },
             { "label": "Proceed to Checkout", "value": "woocommerce_proceed_to_checkout" },
             { "label": "After Cart", "value": "woocommerce_after_cart" }
+        ]
+    },
+    "cart-gutenberg": {
+        "label": "Cart Page (Gutenberg)",
+        "hooks": [
+            { "label": "Before Cart", "value": "wcan_before_woocommerce/cart" },
+            { "label": "Cart Filled Block", "value": "wcan_before_woocommerce/filled-cart-block" },
+            { "label": "Before Cart Items Block", "value": "wcan_before_woocommerce/cart-items-block" },
+            { "label": "Before Cart Line Items", "value": "wcan_before_woocommerce/cart-line-items-block" },
+            { "label": "After Cart Line Items", "value": "wcan_after_woocommerce/cart-line-items-block" },
+            { "label": "Before Cross Sells", "value": "wcan_before_woocommerce/cart-cross-sells-block" },
+            { "label": "Before Cross Sell Products", "value": "wcan_before_woocommerce/cart-cross-sells-products-block" },
+            { "label": "After Cross Sell Products", "value": "wcan_after_woocommerce/cart-cross-sells-products-block" },
+            { "label": "After Cross Sells", "value": "wcan_after_woocommerce/cart-cross-sells-block" },
+            { "label": "After Cart Items Block", "value": "wcan_after_woocommerce/cart-items-block" },
+            { "label": "Before Cart Totals", "value": "wcan_before_woocommerce/cart-totals-block" },
+            { "label": "Before Order Summary", "value": "wcan_before_woocommerce/cart-order-summary-block" },
+            { "label": "After Cart Summary Heading", "value": "wcan_after_woocommerce/cart-order-summary-heading-block" },
+            { "label": "Before Summary Coupon", "value": "wcan_before_woocommerce/cart-order-summary-coupon-form-block" },
+            { "label": "After Summary Coupon", "value": "wcan_after_woocommerce/cart-order-summary-coupon-form-block" },
+            { "label": "Before Subtotal", "value": "wcan_before_woocommerce/cart-order-summary-subtotal-block" },
+            { "label": "Before Discount Block", "value": "wcan_before_woocommerce/cart-order-summary-discount-block" },
+            { "label": "Before Shipping Fee Block", "value": "wcan_before_woocommerce/cart-order-summary-shipping-block" },
+            { "label": "After Shipping Fee Block", "value": "wcan_after_woocommerce/cart-order-summary-shipping-block" },
+            { "label": "Before Proceed to Checkout", "value": "wcan_before_woocommerce/proceed-to-checkout-block" },
+            { "label": "After Proceed to Checkout", "value": "wcan_after_woocommerce/proceed-to-checkout-block" },
+            { "label": "After Payment Methods", "value": "wcan_after_woocommerce/cart-accepted-payment-methods-block" },
+            { "label": "After Cart Totals", "value": "wcan_after_woocommerce/cart-totals-block" },
+            { "label": "After Filled Cart", "value": "wcan_after_woocommerce/filled-cart-block" },
+            { "label": "After Cart", "value": "wcan_after_woocommerce/cart" }
         ]
     },
     "checkout": {
