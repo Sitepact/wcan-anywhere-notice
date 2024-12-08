@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:       WC Anywhere Notice for WooCommerce
+ * Plugin Name:       Anywhere Notice for WooCommerce
  * Description:       A plugin to add customizable notifications, media and other content anywhere in WooCommerce using hooks.
  * Requires at least: 6.2
  * Requires PHP:      8.0

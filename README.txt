@@ -1,4 +1,4 @@
-=== WC Anywhere Notice for WooCommerce ===
+=== Anywhere Notice for WooCommerce ===
 Contributors: sitepact, ryonwhyte
 Tags: woocommerce, notices, hooks, notification
 Requires at least: 6.2  
@@ -12,7 +12,7 @@ A powerful plugin for placing notices anywhere on your WooCommerce store using f
 
 == Description ==
 
-**WC Anywhere Notice for WooCommerce** empowers WooCommerce Store owners to create and manage custom notices that can be displayed anywhere in your store. Using WooCommerce's powerful hook system, this plugin allows you to target specific pages or templates and fine-tune where your notices appear. This is built into the powerful Gutenberg editor that make design options limitless.
+**Anywhere Notice for WooCommerce** empowers WooCommerce Store owners to create and manage custom notices that can be displayed anywhere in your store. Using WooCommerce's powerful hook system, this plugin allows you to target specific pages or templates and fine-tune where your notices appear. This is built into the powerful Gutenberg editor that make design options limitless.
 
 == Basic usage: ==
 1. After plugin is installed and activated go to **WooCommerce > Anywhere Notices**.
@@ -52,7 +52,7 @@ A powerful plugin for placing notices anywhere on your WooCommerce store using f
 
 = Within WordPress =
 1. Go to **Plugins > Add New**.
-2. Search "WC Anywhere Notice for WooCommerce".
+2. Search "Anywhere Notice for WooCommerce".
 3. Install and Activate
 4. Go to **WooCommerce > Anywhere Notices** and create your first notice
 
